@@ -22,7 +22,6 @@ jobs:
         env:
           PRODUCTION_DOMAIN: ${{ secrets.PRODUCTION_DOMAIN }}
 
-
       - uses: w9jds/firebase-action@master
         with:
           args: deploy --only hosting
