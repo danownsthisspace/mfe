@@ -24,5 +24,6 @@ jobs:
           firebaseServiceAccount: '${{ secrets.FIREBASE_SERVICE_ACCOUNT_MICRO_FRONT_ENDS_FF68C }}'
           channelId: live
           projectId: micro-front-ends-ff68c
+          entryPoint: "./packages/container" 
         env:
           FIREBASE_CLI_PREVIEWS: hostingchannels
