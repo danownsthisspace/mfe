@@ -21,13 +21,9 @@ jobs:
       - uses: actions/checkout@v2
       - run: npm install
       - run: npm run build
-      - uses: FirebaseExtended/action-hosting-deploy@v0
+      
+      - uses: w9jds/firebase-action@master
         with:
-          repoToken: '${{ secrets.GITHUB_TOKEN }}'
-          firebaseServiceAccount: '${{ secrets.FIREBASE_SERVICE_ACCOUNT_MICRO_FRONT_ENDS_FF68C }}'
-          channelId: live
-          projectId: micro-front-ends-ff68c
-          entryPoint: "./packages/container" 
-          target: 'container'
+        args: deploy --only hosting:container
         env:
-          FIREBASE_CLI_PREVIEWS: hostingchannels
+          FIREBASE_TOKEN: ${{ secrets.FIREBASE_TOKEN }}
