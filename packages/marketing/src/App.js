@@ -8,7 +8,6 @@ import { StylesProvider } from '@material-ui/core'
 export default () => {
   return <div>
     <StylesProvider>
-      add
       <BrowserRouter>
       <Switch>
         <Route exact path="/pricing"  component={Pricing}/>
