@@ -1,0 +1,17 @@
+{
+  "projects": {
+    "default": "micro-front-ends-ff68c"
+  },
+  "targets": {
+    "micro-front-ends-ff68c": {
+      "hosting": {
+        "container": [
+          "micro-front-ends-ff68c"
+        ],
+        "marketing": [
+          "micro-front-ends-ff68c-m"
+        ]
+      }
+    }
+  }
+}
