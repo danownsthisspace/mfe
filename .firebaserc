@@ -12,8 +12,7 @@
           "micro-front-ends-ff68c-m"
         ],
         "auth": [
-          "micro-front-ends-ff68c-auth",
-          "micro-front-ends-ff68c-auth.web.app"
+          "micro-front-ends-ff68c-auth"
         ]
       }
     }
