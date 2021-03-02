@@ -13,6 +13,9 @@
         ],
         "auth": [
           "micro-front-ends-ff68c-auth"
+        ],
+        "dash": [
+          "micro-front-ends-ff68c-dash"
         ]
       }
     }
