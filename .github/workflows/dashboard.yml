@@ -12,7 +12,7 @@ name: deploy-marketing
 
 defaults:
   run:
-    working-directory: packages/auth
+    working-directory: packages/dashboard
 
 jobs:
   build_and_deploy:
