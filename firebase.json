@@ -24,6 +24,19 @@
                 "source": "**",
                 "destination": "/index.html"
             }]
+        },
+        {
+            "target": "auth",
+            "public": "packages/auth/dist",
+            "ignore": [
+                "firebase.json",
+                "**/.*",
+                "**/node_modules/**"
+            ],
+            "rewrites": [{
+                "source": "**",
+                "destination": "/index.html"
+            }]
         }
     ]
 
