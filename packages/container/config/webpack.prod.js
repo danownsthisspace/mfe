@@ -16,7 +16,7 @@ const prodConfig = {
       name: 'container',
       remotes: {
         marketing: `marketing@https://micro-front-ends-ff68c-m.web.app/remoteEntry.js`,
-        auth: `auth@https://micro-front-ends-ff68c-auth/remoteEntry.js`
+        auth: `auth@https://micro-front-ends-ff68c-auth.web.app/remoteEntry.js`
       },
       shared: packageJson.dependencies,
     }),
