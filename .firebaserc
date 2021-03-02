@@ -14,7 +14,7 @@
         "auth": [
           "micro-front-ends-ff68c-auth"
         ],
-        "dash": [
+        "dashboard": [
           "micro-front-ends-ff68c-dash"
         ]
       }
